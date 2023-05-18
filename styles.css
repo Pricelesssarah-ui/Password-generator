@@ -6,13 +6,13 @@
 }
 
 body {
-    background: #5c475e;
+    background: #262e4c;
     color: #fff;
 }
 
 nav {
     float: right;
-    margin: 30px 40px 0 0;
+    padding: 30px 40px 0 0;
     top: 0;
 }
 
@@ -107,17 +107,23 @@ nav {
     cursor: pointer;
 }
 
+
+
+
 @media (max-width: 600px) {
     
     nav {
         float: right;
-        margin: 30px 40px 0 0;
+        padding: 30px 20px 0 0;
         top: 0;
     }
 
+    .view {
+        margin-left: 10px;
+    }
+
     .container {
-       
-        padding: 0 10%;
+        padding: 10% 10%;
         max-width: 700px;
         width: 90%;
     }
@@ -144,6 +150,14 @@ nav {
         align-items: center;
         justify-content: center;
         padding: 10px 15px;
+       
+    }
+}
+
+@media (max-width: 1200px) {
+    
+    .container {
+        padding: 20% 10%;
        
     }
 }

@@ -16,12 +16,12 @@
   }
   
   .app h1 {
-    color: white;
+    color: #000;
     font-size: 40px;
     padding: 10px 0;
     text-align: center;
     border-radius: .5rem .5rem 0 0;
-    background-color: #de3f53;
+    background-color: none;
     font-family: 'Rajdhani', sans-serif;
   }
 
@@ -33,9 +33,10 @@
   
   .app form input {
     border: none;
-    background-color: #3c4979;
+    outline: none;
+    background-color: #b4a9a9;
     font-size: 18px;
-    color: white;
+    color: #000;
     padding: 10px;
     width: 90%;
   }
@@ -43,7 +44,7 @@
   .app form button {
     border: none;
     color: white;
-    background-color: #1dd2af;
+    background-color: #019f55;
     font-size: 25px;
     font-weight: 600;
     height: 42px;
@@ -58,6 +59,7 @@
   
   .app ul li {
     padding: 10px;
+    margin: 20px 0;
     background-color: #262e4c;
     border-bottom: 1px solid #3a4674;
   }
@@ -73,12 +75,13 @@
   }
   
   .check:checked {
-    background-color: #1dd2af;
+    background-color: #019f55;
   }
   
   .task {
     font-size: 18px;
     padding: 0 10px;
+    background-color: none;
   }
   
   .task:focus {
