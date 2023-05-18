@@ -9,6 +9,13 @@
 </head>
 
 <body>
+
+    <nav>
+        <button class="save"> <a href="save.html">Save</a></button>
+        <button class="view"> <a href="save.html">view your passwords</a></button>
+    </nav>
+
+
     <div class="container">
         <h1>Generate a <br> <span>Random Password</span> </h1>
 
@@ -18,6 +25,8 @@
         </div>
 
         <button onclick="createPassword()"> <img src="images/flash.png" alt="" /> Generate Password</button>
+
+
     </div>
 
 
@@ -25,15 +34,6 @@
 
 
     <script>
-        const bcryptjs = require('bcryptjs');
-
-        const numSaltRounds = 8;
-
-        const password = 'password';
-
-        bcryptjs.hash(password, numSaltRounds);
-
-        
 
         const passwordBox = document.getElementById("password");
         const length = 20;

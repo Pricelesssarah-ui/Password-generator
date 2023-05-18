@@ -6,9 +6,43 @@
 }
 
 body {
-    background: ;
-    background: #019f55;
+    background: #5c475e;
     color: #fff;
+}
+
+nav {
+    float: right;
+    margin: 30px 40px 0 0;
+    top: 0;
+}
+
+.save {
+    padding: 5px;
+    width: 70px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background: #019f55;
+ 
+}
+
+.view {
+    padding: 5px 7px;
+    margin-left: 20px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+  
+}
+
+.save a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.view a {
+    color: #019f55;
+    text-decoration: none;
 }
 
 .container {
@@ -38,7 +72,7 @@ body {
 
 .container h1 span {
     color: #019f55;
-    border-bottom: 4px solid #002339;
+    border-bottom: 4px solid #019f55;
     padding-bottom: 7px;
 }
 
@@ -74,8 +108,15 @@ body {
 }
 
 @media (max-width: 600px) {
+    
+    nav {
+        float: right;
+        margin: 30px 40px 0 0;
+        top: 0;
+    }
+
     .container {
-        margin-top: 200px;
+       
         padding: 0 10%;
         max-width: 700px;
         width: 90%;
@@ -84,6 +125,7 @@ body {
     .container h1 {
         font-size: 20px;
         width: 200px;
+        margin-top: 200px;
     }
 
     .display {
