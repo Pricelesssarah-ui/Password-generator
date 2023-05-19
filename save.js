@@ -7,6 +7,7 @@
     addTask();
   });
 
+
   function loadTasks() {
     // check if localStorage has any tasks
     // if not then return
@@ -25,6 +26,8 @@
       list.insertBefore(li, list.children[0]);
     });
   }
+
+
 
   function addTask() {
     const task = document.querySelector("form input");
@@ -54,7 +57,7 @@
   }
 
 
-  
+
   function taskComplete(event) {
     let tasks = Array.from(JSON.parse(localStorage.getItem("tasks")));
     tasks.forEach(task => {
@@ -85,6 +88,7 @@
   // store current task to track changes
   var currentTask = null;
 
+  
   // get current task
   function getCurrentTask(event) {
     currentTask = event.value;
