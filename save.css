@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 
 .container {
@@ -8,7 +8,7 @@
     padding-top: 50px;
       background-color: #262e4c;
     height: 100vh;
-    font-family: sans-serif;
+    font-family: Roboto;
   }
 
   .app {
@@ -22,7 +22,7 @@
     text-align: center;
     border-radius: .5rem .5rem 0 0;
     background-color: none;
-    font-family: 'Rajdhani', sans-serif;
+    font-family: Roboto;
   }
 
   .app form {
