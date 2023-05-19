@@ -6,7 +6,7 @@
     flex-direction: column;
     align-items: center;
     padding-top: 50px;
-    background-color: #e1e3ea;
+      background-color: #262e4c;
     height: 100vh;
     font-family: sans-serif;
   }
@@ -16,7 +16,7 @@
   }
   
   .app h1 {
-    color: #000;
+    color: #fff;
     font-size: 40px;
     padding: 10px 0;
     text-align: center;
@@ -53,15 +53,23 @@
 
   .app ul {
     list-style: none;
-    color: #e0e0e0;
+    color: #262e4c;
     padding: 0;
+    background-color: #262e4c;
+  }
+
+  ul input {
+    background-color: #262e4c;
+    border: none;
+    outline: none;
+    color: #fff;
   }
   
   .app ul li {
     padding: 10px;
     margin: 20px 0;
     background-color: #262e4c;
-    border-bottom: 1px solid #3a4674;
+    border-bottom: 1px solid #fff;
   }
   
   .check {
@@ -91,6 +99,7 @@
   .app ul li i {
     float: right;
     cursor: pointer;
+    color: #fff;
   }
   
   .app ul li i:hover {
@@ -102,8 +111,15 @@
     text-decoration: line-through;
   }
 
+
+
   @media (max-width:768px) {
     .app {
       width: 90%;
     }
+
+    
+  .app h1 {
+    font-size: 20px;
+  }
   }
