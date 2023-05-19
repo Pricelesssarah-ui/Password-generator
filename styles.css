@@ -44,6 +44,23 @@ nav {
     text-decoration: none;
 }
 
+.save:hover {
+    background: #000;
+}
+
+.view:hover {
+    background: #000; 
+}
+
+.save a:hover {
+    color: #019f55;
+}
+
+.view a:hover {
+    color: #FFF;
+}
+
+
 .container {
     padding: 12% 10%;
     width: 90%;
